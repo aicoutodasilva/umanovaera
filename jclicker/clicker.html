@@ -1,0 +1,37 @@
+<HTML><HEAD>
+<!-- 
+ javascript slide show "clicker"
+ v 4.0 January 2004
+ created by alan levine, maricopa community colleges
+ alan.levine@domail.maricopa.edu                                  
+ http://www.mcli.dist.maricopa.edu/proj/jclicker/
+ use without with these credits is not very nice!
+
+ NOTHING SHOULD BE EDITED HERE! Functionailty is
+ not guaranteed if you tweak this file, but if you are
+ good at HTML/JavaScript you may be able to customize the
+ appearance of the clicker controller
+ 
+ Read in external .js file with slide show settings -->
+    
+<script src="myshow.js" type="text/javascript" language="Javascript"></script>
+
+<!-- script with clicker functions -->
+<script src="clicker_functions.js" type="text/javascript" language="Javascript"></script>
+
+<style>
+.label {font-family: Verdana, Arial, sans serif; font-size: 11px; color:#99CC99;}
+.copy a {font-family: Verdana, Arial, sans serif; font-size: 11px; color:#878383; text-decoration:none;}
+</style>
+</HEAD>
+<BODY background="buttons/bg.gif" onLoad="setUp()">
+
+<form name="control" method="post">
+
+<!-- script that builds the clicker -->
+<script src="clicker_control.js" type="text/javascript" language="Javascript"></script>
+</form>
+<noscript><h2>oh dear</h2><p>You cannot see the show without JavaScript; get it, or at least activate it, ok? Otherwise try to <em>peek</em> at the <a href="http://umanovaera.com/jclicker/images/" target="_top">image directory</a></p></noscript>
+
+</BODY>
+</HTML>
